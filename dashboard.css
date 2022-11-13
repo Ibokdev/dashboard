@@ -104,6 +104,11 @@
 .card{
     padding: 10px;
 }
+.card h6{
+    color: #323232;
+    font-size: 14px;
+    font-weight: normal;
+}
 .wallet{
     margin-top: 10px;
     margin-left: 8px;
@@ -135,4 +140,77 @@
 }
 #detail_title{
     margin-bottom: 10px;
+}
+#semi_container{
+    padding: 25px;
+}
+#header1{
+    display: flex;
+}
+#header2{
+    display: none;
+}
+
+
+/* RESPONSIVE WED DESIGN */
+@media (max-width: 800px)  {
+    .grid1{
+        height:100vh ;
+        width: 20vw;
+        background-color: white;
+        border-right: 1px solid #EAEAEA;
+        display: none;
+    } 
+    .grid2{
+        height:100vh ;
+        width: 100vw;
+        overflow-y: auto;
+    } 
+    .datalog{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    } 
+    .wallet{
+        margin-bottom: 10px;
+        padding: 30px;
+        border-radius: 5px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        padding: 25px;
+    }
+    #semi_container{
+        padding: 10px;
+    }
+    .program{
+        display: flex;
+        align-items: center;
+        width: 95%;
+        height: fit-content;
+        padding: 10px;
+        margin-top: 30px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 7px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+    }
+    .program img{
+        width: 100%;
+    }
+    #header1{
+        display: none;
+    }
+    #header2{
+        display: flex;
+        align-items: center;
+    }
+    
 }
